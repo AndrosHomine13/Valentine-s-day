@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Valentine's Day Card</title>  
+  <title>Valentine's Day Card | by AndrosHomine13</title>  
 
 </head>
 <body>
@@ -25,7 +25,7 @@
                 <circle class="sparkle" cx="50" cy="15" r="2"/>
             </svg>
         </div>
-
+        <div class="marca-agua">AndrosHomine13</div>
         <div class="question active" id="q1">
             <h1 class="message">Will you be my Valentine? 💝</h1>
             <div class="btn-container">
@@ -172,6 +172,17 @@
             position: relative;
         }
 
+        .marca-agua {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          font-size: 14px;
+          font-weight: 600;
+          color: rgba(255,255,255,0.15);
+          pointer-events: none;
+          user-select: none;
+        }
+
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.1); }
@@ -297,4 +308,5 @@
 
 </body>
 </html>
+
 
